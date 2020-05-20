@@ -1,0 +1,8 @@
+# ignore linux binary
+a.out
+
+# ignore nsight
+.cproject
+.project
+*.nsight-cuprof-report
+
