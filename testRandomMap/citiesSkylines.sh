@@ -4,7 +4,7 @@
 declare -a maps
 
 
-for mapfile in *.mapnames
+for mapfile in CSL*.mapnames
 do
   curPrefix="${mapfile%%.*}"
   while read line;
