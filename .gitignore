@@ -9,5 +9,6 @@ a.out
 .project
 *.nsight-cuprof-report
 *.qdrep
+*.sqlite
 *.ncu-rep
 *.nsys-rep
