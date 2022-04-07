@@ -1,5 +1,5 @@
 NVCC=nvcc
-NVCCFLAGS=-I../inc -arch=sm_60 -rdc=true
+NVCCFLAGS=-I../inc -arch=sm_80 -rdc=true
 EXE=crk
 
 test: 
