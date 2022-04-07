@@ -1,8 +1,13 @@
 # ignore linux binary
 a.out
+# ignore windows binary
+*.exe
+*.dll
 
 # ignore nsight
 .cproject
 .project
 *.nsight-cuprof-report
-
+*.qdrep
+*.ncu-rep
+*.nsys-rep
