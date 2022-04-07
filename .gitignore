@@ -12,3 +12,7 @@ a.out
 *.sqlite
 *.ncu-rep
 *.nsys-rep
+
+
+# other files
+*.log
