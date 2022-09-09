@@ -16,3 +16,6 @@ a.out
 
 # other files
 *.log
+
+# vscode
+.vscode
