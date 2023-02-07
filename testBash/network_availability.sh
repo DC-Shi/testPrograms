@@ -20,6 +20,11 @@ while true; do
     echo "Bad  (${bad}/${total}) Failed to ping on $(date)"
   fi
 
+  # Check whether this IP has been in known_hosts
+  ssh-keygen -F ${ip}
+  # Get the public key
+  ssh-keygen -T 5 ${ip}
+
   sleep 1
 }
 done
